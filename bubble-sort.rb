@@ -21,10 +21,22 @@ arr = [4, 3, 78, 2, 0, 2]
 
 p bubble_sort(arr)
 
+
+
+
 def bubble_sort_by(items)
   swap = true
     loop do
       swap = false
+      for i in 0..(items.length - 2)
+        evaluation = yield(items[i], items[i+1])
+        if evaluation.positive?
+          temp = items[i]
+          items[i] = items[i + 1]
+          items[i + 1] = temp
+          swap = true
+        end
+      end
       if swap == false
         break
       end
