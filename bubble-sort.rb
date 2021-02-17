@@ -1,15 +1,22 @@
+
 def bubble_sort(arr)
-  (arr.length).times do
+  swap = true
+ loop do
+    swap = false
     for i in 0..(arr.length - 2)
-      if arr[i] > arr[i + 1]
-          temp = arr[i]
-          arr[i] = arr[i + 1]
-          arr[i + 1] = temp
-        end   
+            if arr[i] > arr[i + 1]                
+                temp = arr[i]
+                arr[i] = arr[i + 1]
+                arr[i + 1] = temp
+                swap = true
+            end   
     end
+  if swap == false
+    break
+  end 
 end
-return arr
-end 
+p arr
+end
 
 arr = [4, 3, 78, 2, 0, 2]
 
