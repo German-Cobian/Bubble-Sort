@@ -10,9 +10,9 @@ def bubble_sort(arr)
         swap = true
       end
     end
-  if swap == false
+   if swap == false
     break
-  end
+   end
   end
   p arr
 end
@@ -34,9 +34,9 @@ def bubble_sort_by(items)
         swap = true
       end
     end
-  if swap == false
+   if swap == false
     break
-  end
+   end
   end
   p items
 end
