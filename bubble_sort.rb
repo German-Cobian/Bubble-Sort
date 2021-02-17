@@ -12,7 +12,7 @@ def bubble_sort(arr)
     end
     if swap == false
       break
-    end  
+    end
   end
   p arr
 end
