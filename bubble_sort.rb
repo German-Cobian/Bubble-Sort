@@ -36,7 +36,7 @@ def bubble_sort_by(items)
     end
     if swap == false
       break
-    end 
+    end
   end
   p items
 end
