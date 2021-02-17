@@ -1,4 +1,3 @@
-
 def bubble_sort(arr)
   swap = true
  loop do
@@ -21,3 +20,15 @@ end
 arr = [4, 3, 78, 2, 0, 2]
 
 p bubble_sort(arr)
+
+def bubble_sort_by(items)
+  swap = true
+    loop do
+      swap = false
+      if swap == false
+        break
+      end
+    end
+    p items
+  end
+
