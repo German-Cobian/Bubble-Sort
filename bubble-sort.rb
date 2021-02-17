@@ -44,3 +44,6 @@ def bubble_sort_by(items)
     p items
   end
 
+  bubble_sort_by(%w[halitosis hi helplesness hello hey help]) do |left, right| left.length - right.length
+  end
+
