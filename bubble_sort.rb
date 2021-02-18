@@ -26,10 +26,10 @@ def bubble_sort_by(arr)
   p arr
 end
 
-arr = [4, 3, 78, 2, 30, 0, 2, 1, ]
+arr = [4, 3, 78, 2, 30, 0, 2, 1]
 
 bubble_sort(arr)
 
- bubble_sort_by(%w[halitosis hi helplesness hello hey help]) do |left, right|
-   left.length - right.length
+bubble_sort_by(%w[halitosis hi helplesness hello hey help]) do |left, right|
+  left.length - right.length
 end
