@@ -1,9 +1,7 @@
 def bubble_sort(arr)
   swap = true
-
   while swap
     swap = false
-
     0.upto(arr.length - 2) do |i|
       if arr[i] > arr[i + 1]
         arr[i], arr[i + 1] = arr[i + 1], arr[i]
@@ -11,16 +9,13 @@ def bubble_sort(arr)
       end
     end
   end
-
   p arr
 end
 
 def bubble_sort_by(arr)
   swap = true
-
   while swap
     swap = false
-
     0.upto(arr.length - 2) do |i|
       if yield(arr[i], arr[i + 1]).positive?
         arr[i], arr[i + 1] = arr[i + 1], arr[i]
@@ -28,11 +23,10 @@ def bubble_sort_by(arr)
       end
     end
   end
-
   p arr
 end
 
-arr = [4, 3, 78, 2, 0, 2]
+arr = [4, 3, 78, 2, 30, 0, 2, 1, ]
 
 bubble_sort(arr)
 
