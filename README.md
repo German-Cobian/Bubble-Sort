@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Bubble-sort
+# Bubble-Sort
 
 > The bubble sort algorithm in Ruby programming language.
 
