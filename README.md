@@ -21,6 +21,8 @@ To get a local copy up and running follow these simple example steps:
    
 * `cd` into the `Bubble-Sort.git` folder you just cloned
 
+* Run `ruby bubble_sort.rb`
+
 
 ## Authors
 
