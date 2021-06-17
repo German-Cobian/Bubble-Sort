@@ -13,13 +13,21 @@ Bubble-sort is an algorithm for sorting items in an array according to a given c
 
 * Ruby
 
+## Getting Started
+
+To get a local copy up and running follow these simple example steps:
+
+* Clone this repo on your local machine by running `git@github.com:German-Cobian/Bubble-Sort.git`
+   
+* `cd` into the `Bubble-Sort.git` folder you just cloned
+
 
 ## Authors
 
 👤 **German Cobian**
 
 * GitHub: [@German-Cobian](https://github.com/German-Cobian)
-* Twitter: [@GermanCobian3](https://twitter.com/GermanCobian3)
+* Twitter: [@GermanCobian1](https://twitter.com/GermanCobian1)
 * LinkedIn: [@german-cobian](https://linkedin.com/german-cobian)
 
 👤 **Mih Julius Ndim**
@@ -40,7 +48,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-* Microverse community
+* Guidelines for project supplied by [The Odin Project](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/bubble-sort)
 
 
 ## 📝 License
