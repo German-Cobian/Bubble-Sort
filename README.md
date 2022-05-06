@@ -2,12 +2,12 @@
 
 # Bubble-Sort
 
-> The bubble sort algorithm in Ruby programming language.
+The bubble sort algorithm for sorting items in an array according to a given criterion. Built in the Ruby programming language.
 
 ![screenshot](images/testdata.png)
 ![screenshot](images/results.png)
 
-Bubble-sort is an algorithm for sorting items in an array according to a given criterion. By its operation each element is compared to the one next to it and they are swapped if the one on the left is larger than the one on the right. This continues until the array is eventually sorted in tis entirety.
+By the algorithm's operation each element is compared to the one next to it and they are swapped if the one on the left is larger than the one on the right. This continues until the array is eventually sorted in it's entirety.
 
 
 ## Built With
@@ -18,6 +18,7 @@ Bubble-sort is an algorithm for sorting items in an array according to a given c
 ## Getting Started
 
 ### Prerequisites
+
 * Install the ruby programming language.
 
 ### Usage
