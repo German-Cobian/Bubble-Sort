@@ -25,7 +25,7 @@ By the algorithm's operation each element is compared to the one next to it and 
 
 To get a local copy up and running follow these simple example steps:
 
-* Clone this repo on your local machine by running `git@github.com:German-Cobian/Bubble-Sort.git`
+* Clone this repo on your local machine by running `git clone git@github.com:German-Cobian/Bubble-Sort.git`
    
 * `cd` into the `Bubble-Sort.git` folder you just cloned
 
